@@ -25,12 +25,12 @@ public class Pentagono extends FigGeometrica {
        return Lado;
           }
    
-   public float calcularPerimetro(){
+   public float calculaPerimetro(){
        return (Lado*5);
           }
    
-   public float calcularArea(){
-       return ((40*5)/2);
+   public float calculaArea(){
+       return ((Lado*5)*(Apotema)/2);
           }
    
        } 
