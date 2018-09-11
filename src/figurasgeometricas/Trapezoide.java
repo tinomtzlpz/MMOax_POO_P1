@@ -7,7 +7,7 @@ package figurasgeometricas;
 
 /**
  *
- * @author ARKEONIS
+ * @author ARKEONIS Main Nunu desde la BETA
  */
 public class Trapezoide extends FigGeometrica{
     private float baseMayor;
