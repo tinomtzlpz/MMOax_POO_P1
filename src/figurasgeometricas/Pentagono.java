@@ -1,6 +1,9 @@
 package figurasgeometricas;
 
-
+/**
+ *
+ * @author P3RZIV4L
+ */
 public class Pentagono extends FigGeometrica {
      
     private float Apotema=5;
