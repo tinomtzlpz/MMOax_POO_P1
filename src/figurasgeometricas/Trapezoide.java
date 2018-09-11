@@ -31,7 +31,7 @@ public class Trapezoide extends FigGeometrica{
     private void setLado1(float lado1){
         this.lado1=lado1;
     }
-    private void setLado2(float lado1){
+    private void setLado2(float lado2){
         this.lado2=lado2;
     }
     private float getBaseMayor(){
