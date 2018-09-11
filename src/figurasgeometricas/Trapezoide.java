@@ -12,12 +12,14 @@ package figurasgeometricas;
 public class Trapezoide extends FigGeometrica{
     private float baseMayor;
     private float baseMenor;
-    private float altura;
+    private float lado1;
+    private float lado2;
     
-    public Trapezoide(float baseMayor, float baseMenor, float altura){
+    public Trapezoide(float baseMayor, float baseMenor, float lado1, float lado2){
         this.baseMayor=baseMayor;
         this.baseMenor=baseMenor;
-        this.altura=altura;
+        this.lado1=lado1;
+        this.lado2=lado2;
     }
     
     private void setBaseMayor(float baseMayor){
@@ -26,8 +28,11 @@ public class Trapezoide extends FigGeometrica{
     private void setBaseMenor(float baseMenor){
         this.baseMenor=baseMenor;
     }
-    private void setAltura(float altura){
-        this.altura=altura;
+    private void setLado1(float lado1){
+        this.lado1=lado1;
+    }
+    private void setLado2(float lado1){
+        this.lado2=lado2;
     }
     private float getBaseMayor(){
         return baseMayor;
@@ -35,10 +40,16 @@ public class Trapezoide extends FigGeometrica{
     private float getBaseMenor(){
         return baseMenor;
     }
-    private float getAltura(){
-        return altura;
+    private float getLado1(){
+        return lado1;
+    }
+    private float getLado2(){
+        return lado2;
     }
     public float calculaArea(){
-        return ((baseMayor+baseMenor)*altura)/2;
+        return ((baseMayor+baseMenor)*lado1)/2;
+    }
+    public float calculaPerimetro(){
+        return baseMayor+baseMenor+lado1+lado2;
     }
 }
