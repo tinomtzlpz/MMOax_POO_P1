@@ -31,21 +31,21 @@ public class ProgramaFiguras {
             switch(opcion){
                 case 1: System.out.println("Por favor, ingresa el valor del radio: ");
                         float radio = sc.nextFloat();
-                        /*Circulo varCirculo = new Circulo(radio);
+                        Circulo varCirculo = new Circulo(radio);
                         System.out.println("El perímetro del círculo es:");
                         System.out.println(varCirculo.calculaPerimetro());
                         System.out.println("El área del círculo es:");
-                        System.out.println(varCirculo.calculaArea());*/
+                        System.out.println(varCirculo.calculaArea());
                         break;
                 case 2: System.out.println("Por favor, ingresa el valor de la base: ");
                         float base = sc.nextFloat();
                         System.out.println("Por favor, ingresa el valor de la altura: ");
                         float altura = sc.nextFloat();
-                        /*Rectangulo varRectangulo = new Rectangulo(base,altura);
+                        Cuadrado varRectangulo = new Cuadrado((int)base,(int)altura);
                         System.out.println("El perímetro del rectángulo es:");
                         System.out.println(varRectangulo.calculaPerimetro());
                         System.out.println("El área del rectángulo es:");
-                        System.out.println(varRectangulo.calculaArea());*/
+                        System.out.println(varRectangulo.calculaArea());
                         break;
                 case 3: System.out.println("Por favor, ingresa el valor del apotema: ");
                         float apotema = sc.nextFloat();

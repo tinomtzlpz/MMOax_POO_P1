@@ -4,7 +4,7 @@
  *
  * @author Sony
  */
-
+package figurasgeometricas;
 
 
 public class Cuadrado extends FigGeometrica{
