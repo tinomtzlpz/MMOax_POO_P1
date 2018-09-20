@@ -17,7 +17,7 @@ public class Octagono {
     }
 
     public void setApotema(float apotema) {
-        this.apotema = apotema;
+        this.apotema= apotema;
     }
     
     public float calculaArea(float lado, float apotema){
