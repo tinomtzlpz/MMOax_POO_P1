@@ -11,7 +11,7 @@ package figurasgeometricas;
  */
 import javax.swing.*;
 
-public abstract class Circulo implements FigGeometrica {
+public class Circulo implements FigGeometrica {
    float radio;
 public Circulo(float radio){
 this.radio=radio;
