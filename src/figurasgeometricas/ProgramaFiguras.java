@@ -49,13 +49,13 @@ public class ProgramaFiguras {
                         break;
                 case 3: System.out.println("Por favor, ingresa el valor del apotema: ");
                         float apotema = sc.nextFloat();
-                        System.out.println("Por favor, ingresa el valor del lado: ");
+                        /*System.out.println("Por favor, ingresa el valor del lado: ");
                         float lado = sc.nextFloat();
                         Pentagono varPentagono = new Pentagono(apotema, lado);
                         System.out.println("El perímetro del pentágono es:");
                         System.out.println(varPentagono.calculaPerimetro());
                         System.out.println("El área del pentágono es:");
-                        System.out.println(varPentagono.calculaArea());
+                        System.out.println(varPentagono.calculaArea());*/
                         break;
                 case 4: System.out.println("Por favor, ingresa el valor de la base mayor: ");
                         float baseMayor = sc.nextFloat();
@@ -71,9 +71,9 @@ public class ProgramaFiguras {
                         break;
                 case 5: System.out.println("Por favor, ingresa el valor del apotema: ");
                         apotema = sc.nextFloat();
-                        System.out.println("Por favor, ingresa el valor del lado: ");
+                        /*System.out.println("Por favor, ingresa el valor del lado: ");
                         lado = sc.nextFloat();
-                        /*Octagono varOctagono = new Octagono(apotema, lado);
+                        Octagono varOctagono = new Octagono(apotema, lado);
                         System.out.println("El perímetro del octágono es:");
                         System.out.println(varOctagono.calculaPerimetro());
                         System.out.println("El área del octágono es:");
