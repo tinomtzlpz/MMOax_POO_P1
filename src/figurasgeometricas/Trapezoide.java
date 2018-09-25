@@ -9,7 +9,7 @@ package figurasgeometricas;
  *
  * @author ARKEONIS
  */
-public class Trapezoide extends FigGeometrica{
+public class Trapezoide implements FigGeometrica{
     private float baseMayor;
     private float baseMenor;
     private float lado1;
