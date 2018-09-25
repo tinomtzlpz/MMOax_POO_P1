@@ -1,7 +1,7 @@
 
 package figurasgeometricas;
 
-public class Octagono {
+public class Octagono implements FigGeometrica{
     float lado,apotema;
 
     public float getLado() {
@@ -20,10 +20,10 @@ public class Octagono {
         this.apotema= apotema;
     }
     
-    public float calculaArea(float lado, float apotema){
-        return ((this.calculaPerimetro(lado) * this.apotema)/2);
+    public float calculaArea(){
+        return ((this.calculaPerimetro() * this.apotema)/2);
     }
-    public float calculaPerimetro(float lado){
+    public float calculaPerimetro(){
         return 8*lado;
     }
     public Octagono (float a, float l){
