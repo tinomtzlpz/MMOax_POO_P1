@@ -9,15 +9,11 @@ package figurasgeometricas;
  *
  * @author tinom
  */
-public class FigGeometrica {
+public interface FigGeometrica {
 
     
-    public float calculaArea(){
-        return (float) -0.01;
-    }
+    public float calculaArea();
     
-    public float calculaPerimetro(){
-        return (float) -0.01;
-    }
+    public float calculaPerimetro();
     
 }
