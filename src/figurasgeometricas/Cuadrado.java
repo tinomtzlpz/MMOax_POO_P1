@@ -7,7 +7,7 @@
 package figurasgeometricas;
 
 
-public class Cuadrado extends FigGeometrica{
+public class Cuadrado implements FigGeometrica{
       
     
    private int base;
